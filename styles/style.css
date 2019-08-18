@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/fondo-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 20px;
+}
+button {
+    box-shadow: pink 3px 3px 4px;
+    border: solid pink 2px;
+    border-radius: 50%;
+}
+.img-hat {
+    height: 150px;
+    width: 150px;
+}
+.js-title {
+    color: white;
+    font-family: 'Henny Penny', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+.js-house {
+    color: rgb(255, 255, 0);
+    font-weight: bold;
+    font-size: 45px;
+    font-family: "font-family: 'Cardo', serif";
+}
+.image_space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    background-image: linear-gradient(to top, transparent, rgb(13, 0, 21));
+}
+.casa-uno {
+    background-image: url("../images/casa1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.casa-dos {
+    background-image: url("../images/casa2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.casa-tres {
+    background-image: url("../images/casa3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.casa-cuatro {
+    background-image: url("../images/casa4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.muggle {
+    background-image: url("../images/muggle.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+@media all and (min-width:768px) {
+    .container {
+        background-image: url("../images/fondo-4.jpg");
+    }
+}
